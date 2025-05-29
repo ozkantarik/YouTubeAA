@@ -25,5 +25,5 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v2
       with:
-        name: youtubeaa-apk
+        name: youtube-apk
         path: app/build/outputs/apk/debug/app-debug.apk
